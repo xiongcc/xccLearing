@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.xiong.xionglearing.R;
 import com.example.xiong.xionglearing.xcc.recyclerView.RankViewMy;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RankViewActivity extends AppCompatActivity {
 
     private RankViewMy rank;
@@ -14,12 +17,12 @@ public class RankViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rank_view);
-//        rank = (RankViewMy) findViewById(R.id.rankview);
-//        List<String> list = new ArrayList<>();
-//        for (int i = 0;i<4;i++){
-//            list.add("ddd");
-//
-//        }
-//        rank.rankRun();
+        rank = (RankViewMy) findViewById(R.id.rankview);
+        List<String> list = new ArrayList<>();
+        for (int i = 0;i<4;i++){
+            list.add("ddd");
+
+        }
+        rank.rankRun();
     }
 }
