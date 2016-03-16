@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiong.xionglearing.xcc.ancitvity.SelectActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.xiong.xionglearing.xcc.menu.MySelectMenu
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:visibility="gone"
+            android:id="@+id/view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <com.example.xiong.xionglearing.xcc.menu.CricleView
+            android:layout_width="match_parent"
+            android:background="#E3E3E3"
+            android:layout_height="80dp"
+            android:id="@+id/cricle_view"
+            android:layout_below="@+id/view"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp"/>
+    </LinearLayout>
+</RelativeLayout>

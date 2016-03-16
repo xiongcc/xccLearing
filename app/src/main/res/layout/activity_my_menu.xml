@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.xiong.myapplication.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:id="@+id/scrollView"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.xiong.xionglearing.xcc.menu.My_Menu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mymenu"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

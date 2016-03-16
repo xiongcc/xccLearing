@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--人脉排行柱状图颜色-->
+    <color name="circle_color_one">#FEE994</color>
+    <color name="circle_color_two">#A9FEE2</color>
+    <color name="circle_color_three">#E7E0D9</color>
+    <color name="circle_color_four">#FEE994</color>
+    <color name="circle_color_five">#FEC9F1</color>
+    <color name="cirlce">#00CCFF</color>
+    <!--<color name="new_title_bar_bg">#17a7ad</color>-->
+    <color name="sw_bg_bar_on_color">#ee884b</color>
+    <!--字体颜色，偏灰色，用于tab的未选中状态-->
+    <color name="text_color_tab_normal">#badee0</color>
+    <!--字体颜色，绿色，用于标签文字-->
+    <color name="tag_custom_text_color">#f2854c</color>
+    <color name="text_color_second">#666666</color>
+    <color name="gray_tag_bg">#F8F8F8</color>
+    <color name="base_gray_tab">#777777</color>
+    <!--头部背景颜色   绿色版-->
+    <color name="title_background">#17a7ad</color>
+</resources>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+
+
+         <ScrollView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="eventbus"
+                     android:text="eventbus"
+                     android:id="@+id/button"/>
+
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="recyclerview"
+                     android:text="recyclerview"
+                     android:id="@+id/b3"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="myTab"
+                     android:text="myTab"
+                     android:id="@+id/myTab"/>
+
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="myMenu"
+                     android:text="myMenu"
+                     android:id="@+id/myMenu"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="mySelect"
+                     android:text="mySelect"
+                     android:id="@+id/mySelect"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="rank"
+                     android:text="rank"
+                     android:id="@+id/rank"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="test"
+                     android:text="test"
+                     android:id="@+id/test"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="autolayout"
+                     android:text="autolayout"
+                     android:id="@+id/autolayout"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="lineView"
+                     android:text="lineView"
+                     android:id="@+id/lineView"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="viewpager"
+                     android:text="viewpagerTab"
+                     android:id="@+id/viewpager"/>
+
+             </LinearLayout>
+         </ScrollView>
+</LinearLayout>

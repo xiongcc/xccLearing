@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+
+    <com.example.xiong.xionglearing.xcc.menu.CustomTab
+        android:id="@+id/mytab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#cdcdcd">
+
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tab_ji_seletor" />
+
+        <ImageView
+            android:id="@+id/butsston2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/tab_ji_seletor" />
+
+
+        <ImageView
+            android:id="@+id/butssston2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:src="@drawable/tab_ji_seletor" />
+
+
+    </com.example.xiong.xionglearing.xcc.menu.CustomTab>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="103dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="120dp"
+        android:onClick="go"
+        android:text="切换tab" />
+
+
+</RelativeLayout>
