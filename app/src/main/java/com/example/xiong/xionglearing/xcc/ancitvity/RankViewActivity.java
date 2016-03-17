@@ -21,7 +21,6 @@ public class RankViewActivity extends AppCompatActivity {
         List<String> list = new ArrayList<>();
         for (int i = 0;i<4;i++){
             list.add("ddd");
-
         }
         rank.rankRun();
     }

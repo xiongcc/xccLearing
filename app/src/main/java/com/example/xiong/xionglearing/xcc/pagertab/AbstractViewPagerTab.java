@@ -77,6 +77,8 @@ public abstract class AbstractViewPagerTab extends LinearLayout implements View.
     protected abstract void addTab(int index, int total, String tab);
 
 
+
+
     @Override
     public void onClick(View v) {
         if ( v instanceof TabIndicator ) {

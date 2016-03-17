@@ -46,6 +46,9 @@ public class MainActivity extends BaseModelActivity {
     public void viewpager(View s) {
         startActivity(new Intent(this, PageTabActivity.class));
     }
+    public void guaguaka(View s) {
+        startActivity(new Intent(this, GuaGuaKaActivity.class));
+    }
 
     @Override
     protected int getLayoutID() {

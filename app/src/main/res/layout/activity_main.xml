@@ -81,6 +81,12 @@
                      android:onClick="viewpager"
                      android:text="viewpagerTab"
                      android:id="@+id/viewpager"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="guaguaka"
+                     android:text="guaguaka"
+                     android:id="@+id/guaguaka"/>
 
              </LinearLayout>
          </ScrollView>

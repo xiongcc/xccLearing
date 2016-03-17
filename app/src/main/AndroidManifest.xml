@@ -47,6 +47,8 @@
         </activity>
         <activity android:name=".xcc.ancitvity.PageTabActivity">
         </activity>
+        <activity android:name=".xcc.ancitvity.GuaGuaKaActivity">
+        </activity>
     </application>
 
 </manifest>
