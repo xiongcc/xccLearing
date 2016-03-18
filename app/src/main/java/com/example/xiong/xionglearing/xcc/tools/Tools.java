@@ -2,6 +2,7 @@ package com.example.xiong.xionglearing.xcc.tools;
 
 import android.content.Context;
 import android.util.TypedValue;
+import android.view.View;
 import android.view.WindowManager;
 
 /**
@@ -12,6 +13,10 @@ public class Tools {
         return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources().getDisplayMetrics());
     }
 
+    /**
+     * @param
+     * @return
+     */
     public static int getPhoneWidth(Context context) {
         WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         int width = wm.getDefaultDisplay().getWidth();
@@ -24,5 +29,15 @@ public class Tools {
         return height;
     }
 
+
+    /**
+     * @param 返回某个控件在屏幕中的坐标，【0】为x
+     * @return
+     */
+    public static int[] getViewScreenXY(View view){
+        int[] location = new int[2];
+        view.getLocationOnScreen(location);
+        return location;
+    }
 
 }

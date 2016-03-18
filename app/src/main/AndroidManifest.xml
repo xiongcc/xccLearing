@@ -49,6 +49,8 @@
         </activity>
         <activity android:name=".xcc.ancitvity.GuaGuaKaActivity">
         </activity>
+        <activity android:name=".xcc.ancitvity.SmallViewActivity">
+        </activity>
     </application>
 
 </manifest>

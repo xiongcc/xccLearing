@@ -49,6 +49,9 @@ public class MainActivity extends BaseModelActivity {
     public void guaguaka(View s) {
         startActivity(new Intent(this, GuaGuaKaActivity.class));
     }
+    public void viewJihe(View s) {
+        startActivity(new Intent(this, SmallViewActivity.class));
+    }
 
     @Override
     protected int getLayoutID() {

@@ -1,4 +1,0 @@
-获取某个控件在屏幕中的坐标，分别为x轴和y轴坐标
-  int[] location1 = new int[2];
-  view.getLocationOnScreen(location1);
-
