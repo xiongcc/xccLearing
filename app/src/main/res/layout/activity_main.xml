@@ -93,6 +93,24 @@
                      android:onClick="viewJihe"
                      android:text="viewJihe"
                      android:id="@+id/viewJihe"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="scrollView"
+                     android:text="scrollView"
+                     android:id="@+id/scrollView"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="tabMove"
+                     android:text="tabMove"
+                     android:id="@+id/tabMove"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="ExpandableActivity"
+                     android:text="ExpandableActivity"
+                     android:id="@+id/ExpandableActivity"/>
 
              </LinearLayout>
          </ScrollView>

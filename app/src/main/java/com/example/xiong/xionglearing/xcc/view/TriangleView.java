@@ -5,7 +5,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import com.example.xiong.xionglearing.R;
@@ -13,7 +12,7 @@ import com.example.xiong.xionglearing.R;
 /**
  * 利用path‘画一个三角形指示器，就是下拉经常用的那个三角形
  */
-public class TriangleView extends View implements View.OnClickListener{
+public class TriangleView extends View implements View.OnClickListener {
     private Paint paint;
     private Path path;
     private int width;
@@ -55,11 +54,11 @@ public class TriangleView extends View implements View.OnClickListener{
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         int offsetW = width / 3;
-        int offsetH = height/3;
+        int offsetH = height / 3;
         //画三角形
         path.moveTo(offsetW, offsetH);
-        path.lineTo(offsetW*1.5f, offsetH*2);
-        path.lineTo(offsetW*2, offsetH);
+        path.lineTo(offsetW * 1.5f, offsetH * 2);
+        path.lineTo(offsetW * 2, offsetH);
 
         canvas.drawPath(path, paint);
 //        canvas.drawLine(0, linePaddingH, 0, height - linePaddingH, paint);
@@ -67,14 +66,14 @@ public class TriangleView extends View implements View.OnClickListener{
     }
 
 
-    public void setTriangleCallBack(onTriangleViewListtener listener){
+    public void setTriangleCallBack(onTriangleViewListtener listener) {
         this.mOnTriangleViewListener = listener;
     }
 
-   public interface onTriangleViewListtener{
-
+    public interface onTriangleViewListtener {
         void clickMe();
     }
+
     @Override
     public void onClick(View view) {
         mOnTriangleViewListener.clickMe();

@@ -20,7 +20,6 @@ android {
 }
 
 
-
 dependencies {
     //    compile project(':autolayout')
     compile fileTree(include: ['*.jar'], dir: 'libs')

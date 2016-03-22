@@ -8,7 +8,6 @@ import android.graphics.Rect;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import com.example.xiong.xionglearing.R;
@@ -36,7 +35,6 @@ public class RankViewMy extends View {
     public void rankRun() {
         paint.setAntiAlias(true);
         refush();
-        Log.e("tag", "width=");
     }
 
     Handler handler = new Handler() {

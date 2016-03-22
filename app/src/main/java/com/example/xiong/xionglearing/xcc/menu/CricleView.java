@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Created by xcc on 2016/2/26.
  */
-public class CricleView extends View {
+public class CricleView extends View implements View.OnClickListener{
     private Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private int MEARW;//view所给你的宽度
     private int MEARH;//view所给你的高度
@@ -47,7 +47,7 @@ public class CricleView extends View {
         isDraw = true;
         postInvalidate();
         Log.e("tag",list.toString());
-
+        this.setOnClickListener(this);
     }
 
     @Override
@@ -150,6 +150,11 @@ public class CricleView extends View {
             click.onClick(info.getPosition());
         }
         return true;
+    }
+
+    @Override
+    public void onClick(View view) {
+        Log.e("tag","333333");
     }
 
     public interface OnCricleClick {

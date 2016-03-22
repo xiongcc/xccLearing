@@ -8,7 +8,8 @@ import com.example.xiong.xionglearing.R;
 public class MainActivity extends BaseModelActivity {
 
     public void eventbus(View s) {
-        startActivity(new Intent(this, EventBusActivity.class));
+        goActivity(EventBusActivity.class);
+//        startActivity(new Intent(this, EventBusActivity.class));
     }
 
     public void recyclerview(View s) {
@@ -44,6 +45,7 @@ public class MainActivity extends BaseModelActivity {
     }
 
     public void viewpager(View s) {
+        //不可滑动的tab结合viewpager
         startActivity(new Intent(this, PageTabActivity.class));
     }
     public void guaguaka(View s) {
@@ -51,6 +53,15 @@ public class MainActivity extends BaseModelActivity {
     }
     public void viewJihe(View s) {
         startActivity(new Intent(this, SmallViewActivity.class));
+    }
+    public void scrollView(View s) {
+        startActivity(new Intent(this, ScorllViewActivity.class));
+    }
+    public void tabMove(View s) {
+        startActivity(new Intent(this, PageTabMoveActivity.class));
+    }
+    public void ExpandableActivity(View s) {
+        startActivity(new Intent(this, ExpandableActivity.class));
     }
 
     @Override
