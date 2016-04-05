@@ -2,6 +2,8 @@
 <manifest package="com.example.xiong.xionglearing"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -56,6 +58,16 @@
         <activity android:name=".xcc.ancitvity.PageTabMoveActivity">
         </activity>
         <activity android:name=".xcc.ancitvity.ExpandableActivity">
+        </activity>
+        <activity android:name=".xcc.ancitvity.HorzListViewActivity">
+        </activity>
+        <activity android:name=".xcc.ancitvity.RetrofitActivity">
+        </activity>
+        <activity android:name=".xcc.testactivity.test1"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
         </activity>
     </application>
 

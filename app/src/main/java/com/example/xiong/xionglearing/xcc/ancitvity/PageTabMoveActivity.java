@@ -50,10 +50,6 @@ public class PageTabMoveActivity extends AppCompatActivity {
         list.add(fragment);
         fragment = new FragmentHome();
         list.add(fragment);
-        fragment = new FragmentStudy();
-        list.add(fragment);
-        fragment = new SettingFragment();
-        list.add(fragment);
         vp.setAdapter(new MyAdapter(getSupportFragmentManager()));
         mTab.setViewPager(vp);
     }

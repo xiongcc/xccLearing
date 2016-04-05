@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="ViewPagerIndicator">
-        <!-- Style of the circle indicator. -->
-        <!-- Style of the tab indicator's tabs. -->
-        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
-        <!-- Style of the underline indicator. -->
+    <!--<declare-styleable name="ViewPagerIndicator">-->
+        <!--&lt;!&ndash; Style of the circle indicator. &ndash;&gt;-->
+        <!--&lt;!&ndash; Style of the tab indicator's tabs. &ndash;&gt;-->
+        <!--<attr name="vpiTabPageIndicatorStyle" format="reference"/>-->
+        <!--&lt;!&ndash; Style of the underline indicator. &ndash;&gt;-->
+    <!--</declare-styleable>-->
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
     </declare-styleable>
 </resources>

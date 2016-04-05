@@ -1,7 +1,6 @@
 package com.example.xiong.xionglearing.xcc.pagertab;
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.view.View;
@@ -31,14 +30,21 @@ class IcsLinearLayout extends LinearLayout {
     private int mDividerPadding;
 
 
-    public IcsLinearLayout(Context context, int themeAttr) {
+//    public  IcsLinearLayout(Context context){
+//        super(context);
+//
+//    }
+
+    public IcsLinearLayout(Context context) {
         super(context);
 
-        TypedArray a = context.obtainStyledAttributes(null, LL, themeAttr, 0);
-        setDividerDrawable(a.getDrawable(IcsLinearLayout.LL_DIVIDER));
-        mDividerPadding = a.getDimensionPixelSize(LL_DIVIDER_PADDING, 0);
-        mShowDividers = a.getInteger(LL_SHOW_DIVIDER, SHOW_DIVIDER_NONE);
-        a.recycle();
+//        TypedArray a = context.obtainStyledAttributes(null, LL, themeAttr, 0);
+//        setDividerDrawable(a.getDrawable(IcsLinearLayout.LL_DIVIDER));
+//        mDividerPadding = a.getDimensionPixelSize(LL_DIVIDER_PADDING, 0);
+//        mShowDividers = a.getInteger(LL_SHOW_DIVIDER, SHOW_DIVIDER_NONE);
+//        Log.e("tag","mDividerPadding="+mDividerPadding);
+//        Log.e("tag","mShowDividers="+mShowDividers);
+//        a.recycle();
     }
 
     public void setDividerDrawable(Drawable divider) {

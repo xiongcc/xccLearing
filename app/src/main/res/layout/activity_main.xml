@@ -111,6 +111,18 @@
                      android:onClick="ExpandableActivity"
                      android:text="ExpandableActivity"
                      android:id="@+id/ExpandableActivity"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="HorzListViewActivity"
+                     android:text="HorzListViewActivity"
+                     android:id="@+id/HorzListViewActivity"/>
+                 <Button
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:onClick="TestActivity"
+                     android:text="TestActivity"
+                     android:id="@+id/TestActivity"/>
 
              </LinearLayout>
          </ScrollView>

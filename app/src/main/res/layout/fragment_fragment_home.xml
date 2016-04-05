@@ -1,13 +1,38 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="com.example.xiong.xionglearing.xcc.fragment.FragmentHome">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xcc.ancitvity.AutoLActivity">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home"/>
+        android:layout_height="108px"
+        android:layout_marginTop="26px"
+        android:background="#ffffffff"
+        android:id="@+id/relativeLayout">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22px"
+            android:layout_marginTop="16px"
+            android:text="王大炮 WANG.DAPAO"
+            android:textColor="#333"
+            android:textSize="28px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16px"
+            android:layout_marginLeft="22px"
+            android:text="护照：G50786449"
+            android:textColor="#999"
+            android:textSize="26px"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

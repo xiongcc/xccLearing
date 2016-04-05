@@ -42,7 +42,7 @@ public class RecyclerviewActivity extends AppCompatActivity {
 
     private void initMyAdapter() {
         xiongAdapter = new XiongAdapter(mDatas);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         mRecyclerView.setAdapter(xiongAdapter);
         mRecyclerView.setHasFixedSize(true);
 //        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));

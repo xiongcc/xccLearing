@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.View;
 
 import com.example.xiong.xionglearing.R;
+import com.example.xiong.xionglearing.xcc.testactivity.test1;
 
 public class MainActivity extends BaseModelActivity {
 
@@ -62,6 +63,12 @@ public class MainActivity extends BaseModelActivity {
     }
     public void ExpandableActivity(View s) {
         startActivity(new Intent(this, ExpandableActivity.class));
+    }
+    public void HorzListViewActivity(View s) {
+        startActivity(new Intent(this, HorzListViewActivity.class));
+    }
+    public void TestActivity(View s) {
+        startActivity(new Intent(this, test1.class));
     }
 
     @Override
