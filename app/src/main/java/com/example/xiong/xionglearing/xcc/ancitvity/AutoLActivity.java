@@ -11,7 +11,7 @@ import com.example.xiong.xionglearing.xcc.fragment.FragmentHome;
  */
 
 public class AutoLActivity extends FragmentActivity {
-
+//突突突突突突
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
