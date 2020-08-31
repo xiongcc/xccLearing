@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.xiong.xionglearing.R;
 
 public class GuaGuaKaActivity extends AppCompatActivity {
-
+//测试啊1
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
