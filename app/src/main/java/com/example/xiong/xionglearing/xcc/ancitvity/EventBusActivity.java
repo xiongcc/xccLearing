@@ -10,7 +10,7 @@ import com.example.xiong.xionglearing.xcc.myeventbus.EventReceiver;
 
 
 public class EventBusActivity extends BaseModelActivity {
-
+//测试git提交1
     @Override
     protected int getLayoutID() {
         return R.layout.activity_event_bus;
